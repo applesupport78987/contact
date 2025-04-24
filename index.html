@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MACS Services - Smartphone Comparison & Support</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #f3f6fa; }
+    .header {
+      background: #112a46;
+      color: #fff;
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo { display: flex; align-items: center; }
+    .logo img { height: 42px; margin-right: 14px; border-radius: 12px; }
+    .brand { font-size: 2rem; font-weight: 700; letter-spacing: 2px; }
+    .container { max-width: 1050px; margin: 34px auto; background: #fff; border-radius: 20px; padding: 32px; box-shadow: 0 2px 14px rgba(100,100,160,0.08);}
+    h1 { color: #183354; font-size: 2.2rem; margin-bottom: 12px; }
+    .compare-table { width: 100%; border-collapse: collapse; margin: 24px 0; background: #f7fafc;}
+    .compare-table th, .compare-table td { padding: 16px 10px; text-align: center; border-bottom: 1px solid #e2e8f0; }
+    .compare-table th { background: #e6f0fa; font-size: 1.06rem; }
+    .compare-table tr:last-child td { border-bottom: none; }
+    .support-highlight {
+      background: #cff7db;
+      color: #16491b;
+      border-radius: 12px;
+      padding: 16px 18px;
+      font-size: 1.12rem;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(44,195,78,0.03);
+      font-weight: 500;
+    }
+    .support-form { margin-top: 36px; }
+    .support-form h2 { font-size: 1.5rem; margin-bottom: 12px; color: #153857;}
+    .support-form label { display: block; margin-bottom: 6px; color: #23416e; font-weight: 500; }
+    .support-form input, .support-form textarea {
+      width: 100%; padding: 10px 12px; margin-bottom: 18px; border: 1px solid #b6c2ce;
+      border-radius: 8px; font-size: 1rem; outline: none;
+    }
+    .support-form button {
+      background: #112a46;
+      color: #fff;
+      border: none;
+      padding: 12px 36px;
+      font-size: 1.04rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .support-form button:hover { background: #23416e;}
+    @media (max-width: 700px) {
+      .container { padding: 12px; }
+      .compare-table th, .compare-table td { padding: 9px 2px; font-size: 0.95rem; }
+      .header { flex-direction: column; align-items: flex-start; }
+      .brand { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="https://i.imgur.com/aVDwMHy.png" alt="MACS Logo" />
+      <span class="brand">MACS Services</span>
+    </div>
+    <span>Smartphone Support & Comparison</span>
+  </div>
+
+  <div class="container">
+    <h1>Compare Latest Smartphones</h1>
+    <div class="support-highlight">
+      <b>Best Price Guarantee!</b> Get your smartphone serviced, repaired, or upgraded at the lowest price in your city – <b>with 24x7 support by MACS Services.</b>
+    </div>
+    <table class="compare-table">
+      <tr>
+        <th>Model</th>
+        <th>Display</th>
+        <th>Processor</th>
+        <th>RAM</th>
+        <th>Camera</th>
+        <th>Battery</th>
+        <th>Price (INR)</th>
+        <th>Get Service</th>
+      </tr>
+      <tr>
+        <td>iPhone 16 Pro Max</td>
+        <td>6.7" OLED 120Hz</td>
+        <td>Apple A18 Pro</td>
+        <td>8GB</td>
+        <td>48MP Triple</td>
+        <td>4,800mAh</td>
+        <td>₹1,48,000</td>
+        <td><a href="#support-form">Support</a></td>
+      </tr>
+      <tr>
+        <td>Samsung S24 Ultra</td>
+        <td>6.8" AMOLED 120Hz</td>
+        <td>Snapdragon 8 Gen 3</td>
+        <td>12GB</td>
+        <td>200MP Quad</td>
+        <td>5,000mAh</td>
+        <td>₹1,20,000</td>
+        <td><a href="#support-form">Support</a></td>
+      </tr>
+      <tr>
+        <td>OnePlus 12</td>
+        <td>6.82" AMOLED</td>
+        <td>Snapdragon 8 Gen 3</td>
+        <td>16GB</td>
+        <td>50MP Triple</td>
+        <td>5,400mAh</td>
+        <td>₹65,000</td>
+        <td><a href="#support-form">Support</a></td>
+      </tr>
+      <tr>
+        <td>Xiaomi 14 Pro</td>
+        <td>6.73" LTPO AMOLED</td>
+        <td>Snapdragon 8 Gen 3</td>
+        <td>12GB</td>
+        <td>50MP Triple</td>
+        <td>5,000mAh</td>
+        <td>₹58,000</td>
+        <td><a href="#support-form">Support</a></td>
+      </tr>
+      <tr>
+        <td>Realme GT 5 Pro</td>
+        <td>6.78" AMOLED</td>
+        <td>Snapdragon 8 Gen 3</td>
+        <td>16GB</td>
+        <td>50MP Triple</td>
+        <td>5,400mAh</td>
+        <td>₹44,000</td>
+        <td><a href="#support-form">Support</a></td>
+      </tr>
+    </table>
+
+    <div class="support-form" id="support-form">
+      <h2>Need Service or Support?</h2>
+      <form>
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="phone">Mobile Number</label>
+        <input id="phone" name="phone" type="tel" required />
+
+        <label for="model">Smartphone Model</label>
+        <input id="model" name="model" type="text" placeholder="e.g. iPhone 16 Pro Max" required />
+
+        <label for="issue">Describe Your Issue</label>
+        <textarea id="issue" name="issue" rows="3" placeholder="Repair, screen replacement, software support, upgrade..." required></textarea>
+
+        <button type="submit">Request Support at Lowest Price</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
