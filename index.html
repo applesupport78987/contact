@@ -29,9 +29,20 @@
       border-radius: 12px;
       padding: 16px 18px;
       font-size: 1.12rem;
-      margin-bottom: 24px;
+      margin-bottom: 16px;
       box-shadow: 0 2px 8px rgba(44,195,78,0.03);
       font-weight: 500;
+    }
+    .service-line {
+      color: #183354;
+      font-size: 1.05rem;
+      margin-bottom: 24px;
+      font-weight: 500;
+      background: #e6f0fa;
+      padding: 10px 16px;
+      border-radius: 10px;
+      box-shadow: 0 1px 4px rgba(44,195,78,0.04);
+      display: inline-block;
     }
     .support-form { margin-top: 36px; }
     .support-form h2 { font-size: 1.5rem; margin-bottom: 12px; color: #153857;}
@@ -51,6 +62,22 @@
       transition: background 0.2s;
     }
     .support-form button:hover { background: #23416e;}
+    .privacy-btn {
+      display: inline-block;
+      margin-top: 34px;
+      background: #23416e;
+      color: #fff;
+      border: none;
+      padding: 12px 34px;
+      font-size: 1.05rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(44,195,78,0.04);
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .privacy-btn:hover { background: #112a46; }
     @media (max-width: 700px) {
       .container { padding: 12px; }
       .compare-table th, .compare-table td { padding: 9px 2px; font-size: 0.95rem; }
@@ -83,6 +110,9 @@
     <h1>Compare Latest Smartphones</h1>
     <div class="support-highlight">
       <b>Best Price Guarantee!</b> Get your smartphone serviced, repaired, or upgraded at the lowest price in your city – <b>with 24x7 support by MACS Services.</b>
+    </div>
+    <div class="service-line">
+      We provide service and phone consultancy for all types of devices.
     </div>
     <table class="compare-table">
       <tr>
@@ -165,59 +195,7 @@
         <button type="submit">Request Support at Lowest Price</button>
       </form>
     </div>
-  </div>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Privacy Policy | MACS Services</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #f8fafc; margin: 0; padding: 0; }
-    .container { max-width: 700px; margin: 36px auto; background: #fff; padding: 36px 24px; border-radius: 12px; box-shadow: 0 2px 14px rgba(100,100,160,0.08);}
-    h1 { color: #1c3157; }
-    h2 { color: #264075; }
-    ul { margin-left: 24px;}
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Privacy Policy</h1>
-    <p><b>Effective Date:</b> April 25, 2024</p>
-    <h2>Introduction</h2>
-    <p>At MACS Services, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, protect, and share your information.</p>
-
-    <h2>Information We Collect</h2>
-    <ul>
-      <li>Personal information you provide (such as name, phone number, email address, device details, etc.)</li>
-      <li>Service-related details submitted via our support form or during communication</li>
-    </ul>
-
-    <h2>How We Use Your Information</h2>
-    <ul>
-      <li>To provide technical support and device repair services</li>
-      <li>To contact you regarding your service request</li>
-      <li>To improve our services and customer experience</li>
-      <li>To comply with legal obligations</li>
-    </ul>
-
-    <h2>How We Protect Your Information</h2>
-    <ul>
-      <li>Your data is securely stored and protected with industry-standard encryption</li>
-      <li>Access is restricted to authorized staff only</li>
-      <li>We use secure servers and regular security audits</li>
-      <li>No personal data is shared or sold to third parties without your explicit consent</li>
-    </ul>
-
-    <h2>Third-Party Links</h2>
-    <p>Our website may contain links to external sites. We are not responsible for the privacy practices of these sites.</p>
-
-    <h2>Your Rights</h2>
-    <p>You may request to access, update, or delete your personal information at any time by contacting us.</p>
-
-    <h2>Contact Us</h2>
-    <p>If you have any questions or concerns about our privacy policy, please contact us at <a href="mailto:support@macsservices.com">support@macsservices.com</a></p>
+    <a class="privacy-btn" href="privacy-policy.html">Read Privacy Policy</a>
   </div>
 </body>
 </html>
-
